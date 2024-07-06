@@ -1,6 +1,6 @@
 # A maximally general LLM agent
 
-_Warning: This code executes LLM generated code and can destroy your computer or worse. Don't run it._
+_Warning: This code executes LLM generated code and can mess up your computer or worse. Don't run it._
 
 
 If you are destructively curious, you could _hypothetically_:
