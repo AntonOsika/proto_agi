@@ -2,7 +2,6 @@
 
 _Warning: This code executes LLM generated code and can mess up your computer or worse. Don't run it._
 
-
 If you are destructively curious, you could _hypothetically_:
 
     pip install openai
@@ -27,6 +26,12 @@ while True:
     history.append((code, res))
 ```
 
+_Run it with gloves:_
+
+```
+docker build . --tag proto_agi
+docker run -ti -e OPENAI_API_KEY=sk-XYZ
+```
 
 # Dedication
 
