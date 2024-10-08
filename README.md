@@ -3,7 +3,7 @@
 _Warning: This code executes LLM generated code and can mess up your computer or worse. Don't run it._
 
 
-If you are destructively curious, you could hypothetically do the below for setup and then run run.py, or just paste run.js in developer console.
+If you are destructively curious, you could hypothetically do the below (or just paste run.js in your browsers developer console).
 
     pip install openai
     OPENAI_API_KEY=[api_key] python run.py
