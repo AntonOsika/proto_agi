@@ -1,6 +1,6 @@
 import openai
 
-# replace this with LLM of your choice. GPT5 with safety-post-training removed gives best results.
+# replace this with LLM of your choice. un-alignment-scripted o1 currently gives best results.
 def llm(x):
     return openai.chat.completions.create(
         model="gpt-4o",
